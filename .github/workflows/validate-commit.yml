@@ -1,1 +1,10 @@
-
+name: Validate Commit
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+        #next video
+        # git and github Hands-On
