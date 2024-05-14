@@ -1,7 +1,7 @@
 name: Validate Commit
 on: push
 jobs:
-  my-job:
+  validate-Commit:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
